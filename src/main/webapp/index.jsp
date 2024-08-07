@@ -12,18 +12,18 @@
             <h1 class="card-title">Calculadora</h1>
         </div>
         <div class="card-body">
-            <form action="CalculadoraServlet" method="post">
+            <form action="calculo-servlet" method="post">
                 <div class="form-group">
-                    <label for="numero1">Número 1:</label>
-                    <input type="text" class="form-control" id="numero1" name="numero1" required>
+                    <label for="number1">Número 1:</label>
+                    <input type="text" class="form-control" id="number1" name="number1" required>
                 </div>
                 <div class="form-group">
-                    <label for="numero2">Número 2:</label>
-                    <input type="text" class="form-control" id="numero2" name="numero2" required>
+                    <label for="number2">Número 2:</label>
+                    <input type="text" class="form-control" id="number2" name="number2" required>
                 </div>
                 <div class="form-group">
-                    <label for="operacion">Operación:</label>
-                    <select class="form-control" id="operacion" name="operacion">
+                    <label for="operator">Operación:</label>
+                    <select class="form-control" id="operator" name="operator">
                         <option value="suma">Suma</option>
                         <option value="resta">Resta</option>
                         <option value="multiplicacion">Multiplicación</option>
